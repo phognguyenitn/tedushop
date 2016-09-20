@@ -26,5 +26,11 @@ namespace TeduShop.Web.Controllers
 
             return View();
         }
+        public ActionResult demochange()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
